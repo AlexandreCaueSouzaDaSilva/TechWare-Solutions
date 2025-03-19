@@ -1,0 +1,22 @@
+.painel {
+    background-color: #0fb4b9;
+    border: 5px solid #0fb4b9
+    border-radius: 10px;
+    padding: 20px;
+    margin: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    background-size
+   
+}
+
+.painel h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.painel p {
+    font-size: 16px;
+    color: #666;
+}

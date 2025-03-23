@@ -15,6 +15,15 @@ body.dark-mode {
     opacity: 0;
     position: absolute
    }
+
+.voltar {
+  position: left: 30px;
+  margin: 11px;
+  padding: 0px;
+  left: 0px;
+  cursor: pointer;
+
+
    
 .label {
     background-color: #292c25;

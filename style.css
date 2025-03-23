@@ -17,6 +17,35 @@
 }
 
 
+.container {
+  gap: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  position: relative;
+  left: 0px;
+  margin: 0;
+}
+
+.box {
+  background-color: burlywood;
+  border-radius: 15px;
+  width: 60px;
+  height:100px;
+  padding: 100px;
+  cursor: pointer;
+  opacity: 100%;
+  transition: opacity 0.3s ease-in-out;
+}
+.box:hover {
+  opacity: 70%;
+}
+
+  .modo-claro {
+    background-color: var(--cor-fundo-claro);
+}
+
   .modo-escuro {
     background-color: var(--cor-fundo-escuro);
   }
@@ -109,6 +138,21 @@ a
   .hero-text button:hover {
     background-color: #ffbc00;
   }
+  .dropdown:hover {
+    background-color: #ffbc00
+  }
+
+h1 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+  }
+  
+ 
+
+
 
 
 .wrapper {
@@ -119,6 +163,7 @@ a
      position: right 120%;
      bottom: unset;
      float: bottom;
+     text-align: center;
 }
 
 .botaomenu {
